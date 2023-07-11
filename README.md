@@ -37,4 +37,10 @@ $ cd src
 # Run the app
 $ g++ main.cpp -o framebuffer
 $ ./framebuffer
+
+# Build the app using CMake
+$ cmake -G "Unix Makefiles" -S . -B build
+$ cd build/
+$ make
+$ GAME.exe
 ```
